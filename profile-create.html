@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Index — Create Profile</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+
+  <header class="nav fade-in">
+    <div class="container nav-inner">
+      <div class="logo">
+        <a href="index.html">
+            <svg class="logo-mark" width="28" height="28" viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="16" stroke="#B4CF6A" stroke-width="1.5"/>
+            <circle cx="32" cy="32" r="5.5" fill="#B4CF6A"/>
+            <line x1="32" y1="8" x2="32" y2="15" stroke="#3A9DF7" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <span>Index</span>
+        </a>
+        </div>
+
+      <nav class="nav-links">
+        <a href="explore.html">Explore</a>
+        <a href="artists.html">Artists</a>
+        <a href="login.html">Login</a>
+        <a href="profile-create.html" class="btn-outline">Create Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container fade-up">
+      <div class="eyebrow">PROFILE SETUP</div>
+      <h1>Build your creator index.</h1>
+      <p>
+        Start with identity first. Archive the work after. Registry can come later.
+      </p>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container grid-2">
+      <div class="surface-card card-pad fade-up delay-1">
+        <h2 class="card-title" style="font-size: 1.5rem;">Profile Information</h2>
+        <form class="form-grid">
+          <div class="field">
+            <label for="displayName">Display Name</label>
+            <input id="displayName" type="text" placeholder="Your artist or creator name" />
+          </div>
+
+          <div class="field">
+            <label for="tagline">Tagline</label>
+            <input id="tagline" type="text" placeholder="A short descriptor of your work" />
+          </div>
+
+          <div class="field">
+            <label for="bio">Bio</label>
+            <textarea id="bio" placeholder="Write a short archive-style biography"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Create Profile</button>
+        </form>
+      </div>
+
+      <div class="surface-card card-pad fade-up delay-2">
+        <h2 class="card-title" style="font-size: 1.5rem;">What comes next</h2>
+        <p class="card-copy">
+          After setup, your profile can grow into a structured archive with works, collections,
+          process notes, and registry-ready metadata.
+        </p>
+
+        <div class="meta-row" style="margin-top: 18px;">
+          <span class="meta-pill">Profile</span>
+          <span class="meta-pill">Works</span>
+          <span class="meta-pill">Collections</span>
+          <span class="meta-pill">Registry</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer fade-in">
+    <div class="container footer-inner">
+      <span>© 2026 Index</span>
+      <div>
+        <a href="#">About</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
