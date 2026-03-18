@@ -19,6 +19,7 @@ It shifts focus away from collections alone and toward the artist as the primary
 
 ## 🏗️ Architecture Overview
 
+```txt
 the-index/
 │
 ├── client/ # Next.js frontend
@@ -51,6 +52,7 @@ the-index/
 │ └── server.js
 │
 └── README.md
+```
 
 ## Technology Stack
 
@@ -64,6 +66,7 @@ the-index/
 
 ## 📁 Project Structure
 
+```txt
 the-index/
 │
 ├── client/ # Next.js frontend
@@ -96,6 +99,7 @@ the-index/
 │ └── server.js
 │
 └── README.md
+```
 
 ---
 
