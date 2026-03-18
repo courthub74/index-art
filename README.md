@@ -2,9 +2,9 @@
 
 <!-- # <img src="./img/Index-logo.png" width="100" /> The index -->
 
-# <p align="center" style="display: flex; align-items: center; justify-content: center; gap: 12px;">
+# <p align="center" style="display: flex; align-items: center; gap: 12px;">
 
-  <img src="./img/Index-logo.png" width="60" />
+  <img src="./img/Index-logo.png" width="100" />
   <span style="font-size: 28px; font-weight: 700;">The Index</span>
 </p>
 
