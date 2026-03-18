@@ -1,7 +1,7 @@
 <!-- # 🧠 The Index -->
 
 <h1 style="display: flex; flex-direction: column; align-items: center; justify-content: center; ">
-  <img src="./img/Index-logo.png" width="100" style="vertical-align: middle;" />
+  <img src="./img/Index-logo.png" width="30" style="vertical-align: middle;" />
   <span style="vertical-align: middle;">The Index</span>
 </h1>
 
