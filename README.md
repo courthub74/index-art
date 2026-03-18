@@ -1,6 +1,6 @@
 <!-- # 🧠 The Index -->
 
-<h1 align="center">
+<h1 align="center" style="display: flex; align-items: center ">
   <img src="./img/Index-logo.png" width="60" style="vertical-align: middle;" />
   <span style="vertical-align: middle;">The Index</span>
 </h1>
