@@ -1,4 +1,6 @@
-# 🧠 The Index
+<!-- # 🧠 The Index -->
+
+# <img src="./img/Index-logo.png" width="100" /> The index
 
 **The Index** is a creator-first registry platform designed to structure artist identity, artworks, and collections into a cohesive, system-driven interface with optional blockchain integration.
 
