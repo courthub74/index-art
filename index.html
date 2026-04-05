@@ -28,6 +28,12 @@
         </a>
         </div>
 
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <nav class="nav-links">
         <a href="explore.html">Explore</a>
         <a href="artists.html">Artists</a>
@@ -35,6 +41,15 @@
         <a href="profile-create.html" class="btn-outline">Create Profile</a>
      </nav>
 
+    </div>
+
+    <div class="mobile-menu">
+      <nav class="mobile-nav-links">
+        <a href="explore.html">Explore</a>
+        <a href="artists.html">Artists</a>
+        <a href="login.html">Login</a>
+        <a href="profile-create.html" class="btn-outline">Create Profile</a>
+      </nav>
     </div>
   </header>
 
@@ -136,6 +151,15 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('open');
+    });
+  </script>
 
 </body>
 </html>
